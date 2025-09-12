@@ -786,6 +786,9 @@
     <w:uiPriority w:val="9" />
     <w:unhideWhenUsed />
     <w:qFormat />
+    <w:rPr>
+      <w:sz w:val="21" />
+    </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="FootnoteBlockText">
     <w:name w:val="Footnote Block Text" />
