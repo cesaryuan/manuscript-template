@@ -120,9 +120,6 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="AbstractTitle" />
-        <w:rPr>
-          <w:rFonts w:hint="eastAsia" />
-        </w:rPr>
       </w:pPr>
       <w:r>
         <w:rPr>
@@ -374,6 +371,7 @@
         <w:pStyle w:val="TableCaption" />
       </w:pPr>
       <w:r>
+        <w:lastRenderedPageBreak />
         <w:t>Table caption.</w:t>
       </w:r>
     </w:p>
@@ -385,8 +383,8 @@
         <w:tblCaption w:val="Table caption." />
       </w:tblPr>
       <w:tblGrid>
-        <w:gridCol w:w="1303" />
-        <w:gridCol w:w="763" />
+        <w:gridCol w:w="1167" />
+        <w:gridCol w:w="695" />
       </w:tblGrid>
       <w:tr>
         <w:trPr>

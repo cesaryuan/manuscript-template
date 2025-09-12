@@ -39,7 +39,7 @@
   <w:endnote w:type="separator" w:id="-1">
     <w:p>
       <w:pPr>
-        <w:spacing w:after="0" />
+        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
       </w:pPr>
       <w:r>
         <w:separator />
@@ -49,7 +49,7 @@
   <w:endnote w:type="continuationSeparator" w:id="0">
     <w:p>
       <w:pPr>
-        <w:spacing w:after="0" />
+        <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
       </w:pPr>
       <w:r>
         <w:continuationSeparator />
