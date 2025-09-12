@@ -546,7 +546,7 @@
       <w:jc w:val="center" />
     </w:pPr>
     <w:rPr>
-      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
+      <w:rFonts w:eastAsia="黑体" w:cstheme="majorBidi" />
       <w:sz w:val="56" />
       <w:szCs w:val="56" />
     </w:rPr>
@@ -557,7 +557,7 @@
     <w:link w:val="a4" />
     <w:uiPriority w:val="10" />
     <w:rPr>
-      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
       <w:sz w:val="56" />
       <w:szCs w:val="56" />
     </w:rPr>
