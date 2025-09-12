@@ -72,9 +72,6 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="Abstract" />
-        <w:rPr>
-          <w:rFonts w:hint="eastAsia" />
-        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Abstract</w:t>
