@@ -275,6 +275,9 @@
   <w:style w:type="paragraph" w:default="1" w:styleId="a">
     <w:name w:val="Normal" />
     <w:qFormat />
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
+    </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:styleId="1">
     <w:name w:val="heading 1" />
