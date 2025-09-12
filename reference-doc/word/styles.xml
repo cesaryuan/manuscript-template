@@ -646,7 +646,6 @@
     <w:qFormat />
     <w:pPr>
       <w:keepNext />
-      <w:keepLines />
       <w:spacing w:before="100" w:after="300" />
     </w:pPr>
     <w:rPr>
