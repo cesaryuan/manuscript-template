@@ -296,7 +296,7 @@
       <w:outlineLvl w:val="0" />
     </w:pPr>
     <w:rPr>
-      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
+      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="黑体" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
       <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
       <w:sz w:val="40" />
       <w:szCs w:val="40" />
@@ -322,7 +322,7 @@
       <w:outlineLvl w:val="1" />
     </w:pPr>
     <w:rPr>
-      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
+      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="黑体" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
       <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
       <w:sz w:val="32" />
       <w:szCs w:val="32" />
@@ -348,7 +348,7 @@
       <w:outlineLvl w:val="2" />
     </w:pPr>
     <w:rPr>
-      <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
+      <w:rFonts w:eastAsia="黑体" w:cstheme="majorBidi" />
       <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
       <w:sz w:val="28" />
       <w:szCs w:val="28" />
@@ -374,7 +374,7 @@
       <w:outlineLvl w:val="3" />
     </w:pPr>
     <w:rPr>
-      <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
+      <w:rFonts w:cstheme="majorBidi" />
       <w:i />
       <w:iCs />
       <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
@@ -664,7 +664,7 @@
     <w:link w:val="1" />
     <w:uiPriority w:val="9" />
     <w:rPr>
-      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
+      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="黑体" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
       <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
       <w:sz w:val="40" />
       <w:szCs w:val="40" />
@@ -677,7 +677,7 @@
     <w:uiPriority w:val="9" />
     <w:semiHidden />
     <w:rPr>
-      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsiaTheme="majorEastAsia" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
+      <w:rFonts w:asciiTheme="majorHAnsi" w:eastAsia="黑体" w:hAnsiTheme="majorHAnsi" w:cstheme="majorBidi" />
       <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
       <w:sz w:val="32" />
       <w:szCs w:val="32" />
@@ -690,7 +690,7 @@
     <w:uiPriority w:val="9" />
     <w:semiHidden />
     <w:rPr>
-      <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
       <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
       <w:sz w:val="28" />
       <w:szCs w:val="28" />
@@ -703,7 +703,7 @@
     <w:uiPriority w:val="9" />
     <w:semiHidden />
     <w:rPr>
-      <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
       <w:i />
       <w:iCs />
       <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
