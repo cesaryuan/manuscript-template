@@ -53,6 +53,17 @@ $if(abstract-title)$
 $endif$
     $abstract$
 $endif$
+$if(keywords)$
+    <w:p>
+      <w:r>
+        <w:rPr>
+          <w:b />
+        </w:rPr>
+        <w:t xml:space="preserve">Keywords: </w:t>
+      </w:r>
+      ${ for(keywords) }${ keywords }${ sep }<w:r><w:t xml:space="preserve">, </w:t></w:r>${ endfor }
+    </w:p>
+$endif$
 $for(include-before)$
     $include-before$
 $endfor$
