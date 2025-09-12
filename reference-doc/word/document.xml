@@ -40,41 +40,116 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="a4" />
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Title</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>标题</w:t>
       </w:r>
     </w:p>
     <w:p>
       <w:pPr>
         <w:pStyle w:val="a6" />
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Subtitle</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>副标题</w:t>
       </w:r>
     </w:p>
     <w:p>
       <w:pPr>
         <w:pStyle w:val="Author" />
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Author</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>作者</w:t>
       </w:r>
     </w:p>
     <w:p>
       <w:pPr>
         <w:pStyle w:val="a8" />
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Date</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>日期</w:t>
       </w:r>
     </w:p>
     <w:p>
       <w:pPr>
         <w:pStyle w:val="Abstract" />
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Abstract</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>摘要</w:t>
       </w:r>
     </w:p>
     <w:p>
@@ -86,6 +161,24 @@
         <w:t>Heading 1</w:t>
       </w:r>
       <w:bookmarkEnd w:id="0" />
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>标题</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> 1</w:t>
+      </w:r>
     </w:p>
     <w:p>
       <w:pPr>
@@ -96,6 +189,24 @@
         <w:t>Heading 2</w:t>
       </w:r>
       <w:bookmarkEnd w:id="1" />
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>标题</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> 2</w:t>
+      </w:r>
     </w:p>
     <w:p>
       <w:pPr>
@@ -106,6 +217,24 @@
         <w:t>Heading 3</w:t>
       </w:r>
       <w:bookmarkEnd w:id="2" />
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>标题</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> 3</w:t>
+      </w:r>
     </w:p>
     <w:p>
       <w:pPr>
@@ -116,6 +245,24 @@
         <w:t>Heading 4</w:t>
       </w:r>
       <w:bookmarkEnd w:id="3" />
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>标题</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t xml:space="preserve"> 4</w:t>
+      </w:r>
     </w:p>
     <w:p>
       <w:pPr>
@@ -180,6 +327,12 @@
         <w:pStyle w:val="a0" />
       </w:pPr>
       <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>正文。</w:t>
+      </w:r>
+      <w:r>
         <w:t xml:space="preserve">Body Text. Body Text Char. </w:t>
       </w:r>
       <w:r>
@@ -233,7 +386,7 @@
         <w:tblCaption w:val="Table caption." />
       </w:tblPr>
       <w:tblGrid>
-        <w:gridCol w:w="763" />
+        <w:gridCol w:w="1303" />
         <w:gridCol w:w="763" />
       </w:tblGrid>
       <w:tr>
@@ -247,9 +400,24 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact" />
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia" />
+              </w:rPr>
             </w:pPr>
             <w:r>
               <w:t>Table</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia" />
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia" />
+              </w:rPr>
+              <w:t>表格</w:t>
             </w:r>
           </w:p>
         </w:tc>
@@ -260,9 +428,18 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact" />
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia" />
+              </w:rPr>
             </w:pPr>
             <w:r>
               <w:t>Table</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia" />
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
             </w:r>
           </w:p>
         </w:tc>
@@ -275,9 +452,24 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact" />
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia" />
+              </w:rPr>
             </w:pPr>
             <w:r>
               <w:t>1</w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia" />
+              </w:rPr>
+              <w:t xml:space="preserve"> </w:t>
+            </w:r>
+            <w:r>
+              <w:rPr>
+                <w:rFonts w:hint="eastAsia" />
+              </w:rPr>
+              <w:t>单元格</w:t>
             </w:r>
           </w:p>
         </w:tc>
