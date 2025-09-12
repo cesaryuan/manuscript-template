@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<w:footnotes
+<w:endnotes
   xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
   xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
   xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
@@ -36,42 +36,24 @@
   xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
   xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
   mc:Ignorable="w14 w15 w16se w16cid w16 w16cex w16sdtdh w16sdtfl w16du wp14">
-  <w:footnote w:type="separator" w:id="-1">
+  <w:endnote w:type="separator" w:id="-1">
     <w:p>
+      <w:pPr>
+        <w:spacing w:after="0" />
+      </w:pPr>
       <w:r>
         <w:separator />
       </w:r>
     </w:p>
-  </w:footnote>
-  <w:footnote w:type="continuationSeparator" w:id="0">
+  </w:endnote>
+  <w:endnote w:type="continuationSeparator" w:id="0">
     <w:p>
+      <w:pPr>
+        <w:spacing w:after="0" />
+      </w:pPr>
       <w:r>
         <w:continuationSeparator />
       </w:r>
     </w:p>
-  </w:footnote>
-  <w:footnote w:id="1">
-    <w:p>
-      <w:pPr>
-        <w:pStyle w:val="ab" />
-      </w:pPr>
-      <w:r>
-        <w:rPr>
-          <w:rStyle w:val="ae" />
-        </w:rPr>
-        <w:footnoteRef />
-      </w:r>
-      <w:r>
-        <w:t>Footnote Text.</w:t>
-      </w:r>
-    </w:p>
-    <w:p>
-      <w:pPr>
-        <w:pStyle w:val="FootnoteBlockText" />
-      </w:pPr>
-      <w:r>
-        <w:t>Footnote Block Text</w:t>
-      </w:r>
-    </w:p>
-  </w:footnote>
-</w:footnotes>
+  </w:endnote>
+</w:endnotes>
