@@ -807,6 +807,10 @@
     <w:tblPr>
       <w:jc w:val="center" />
       <w:tblInd w:w="0" w:type="dxa" />
+      <w:tblBorders>
+        <w:top w:val="single" w:sz="12" w:space="0" w:color="auto" />
+        <w:bottom w:val="single" w:sz="12" w:space="0" w:color="auto" />
+      </w:tblBorders>
       <w:tblCellMar>
         <w:top w:w="0" w:type="dxa" />
         <w:left w:w="108" w:type="dxa" />
