@@ -805,6 +805,7 @@
     <w:unhideWhenUsed />
     <w:qFormat />
     <w:tblPr>
+      <w:jc w:val="center" />
       <w:tblInd w:w="0" w:type="dxa" />
       <w:tblCellMar>
         <w:top w:w="0" w:type="dxa" />
@@ -813,6 +814,9 @@
         <w:right w:w="108" w:type="dxa" />
       </w:tblCellMar>
     </w:tblPr>
+    <w:trPr>
+      <w:jc w:val="center" />
+    </w:trPr>
     <w:tblStylePr w:type="firstRow">
       <w:tblPr />
       <w:tcPr>
