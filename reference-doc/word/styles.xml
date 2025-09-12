@@ -831,10 +831,8 @@
     <w:link w:val="ad" />
     <w:pPr>
       <w:spacing w:after="120" />
+      <w:jc w:val="center" />
     </w:pPr>
-    <w:rPr>
-      <w:i />
-    </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableCaption">
     <w:name w:val="Table Caption" />
@@ -862,23 +860,30 @@
     <w:name w:val="题注 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="ac" />
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
+    </w:rPr>
   </w:style>
   <w:style w:type="character" w:customStyle="1" w:styleId="VerbatimChar">
     <w:name w:val="Verbatim Char" />
     <w:basedOn w:val="ad" />
     <w:rPr>
-      <w:rFonts w:ascii="Consolas" w:hAnsi="Consolas" />
+      <w:rFonts w:ascii="Consolas" w:eastAsia="宋体" w:hAnsi="Consolas" />
       <w:sz w:val="22" />
     </w:rPr>
   </w:style>
   <w:style w:type="character" w:customStyle="1" w:styleId="SectionNumber">
     <w:name w:val="Section Number" />
     <w:basedOn w:val="ad" />
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
+    </w:rPr>
   </w:style>
   <w:style w:type="character" w:styleId="ae">
     <w:name w:val="footnote reference" />
     <w:basedOn w:val="ad" />
     <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
       <w:vertAlign w:val="superscript" />
     </w:rPr>
   </w:style>
@@ -886,6 +891,7 @@
     <w:name w:val="Hyperlink" />
     <w:basedOn w:val="ad" />
     <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
       <w:color w:val="156082" w:themeColor="accent1" />
     </w:rPr>
   </w:style>
