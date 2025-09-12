@@ -40,9 +40,6 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="a4" />
-        <w:rPr>
-          <w:rFonts w:hint="eastAsia" />
-        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Title</w:t>
@@ -63,9 +60,6 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="a6" />
-        <w:rPr>
-          <w:rFonts w:hint="eastAsia" />
-        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Subtitle</w:t>
@@ -86,9 +80,6 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="Author" />
-        <w:rPr>
-          <w:rFonts w:hint="eastAsia" />
-        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Author</w:t>
@@ -109,9 +100,6 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="a8" />
-        <w:rPr>
-          <w:rFonts w:hint="eastAsia" />
-        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Date</w:t>
@@ -132,9 +120,6 @@
     <w:p>
       <w:pPr>
         <w:pStyle w:val="Abstract" />
-        <w:rPr>
-          <w:rFonts w:hint="eastAsia" />
-        </w:rPr>
       </w:pPr>
       <w:r>
         <w:t>Abstract</w:t>
@@ -400,9 +385,6 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact" />
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia" />
-              </w:rPr>
             </w:pPr>
             <w:r>
               <w:t>Table</w:t>
@@ -428,9 +410,6 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact" />
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia" />
-              </w:rPr>
             </w:pPr>
             <w:r>
               <w:t>Table</w:t>
@@ -452,9 +431,6 @@
           <w:p>
             <w:pPr>
               <w:pStyle w:val="Compact" />
-              <w:rPr>
-                <w:rFonts w:hint="eastAsia" />
-              </w:rPr>
             </w:pPr>
             <w:r>
               <w:t>1</w:t>
