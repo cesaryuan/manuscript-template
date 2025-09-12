@@ -276,6 +276,7 @@
     <w:name w:val="Normal" />
     <w:qFormat />
     <w:pPr>
+      <w:spacing w:line="360" w:lineRule="auto" />
       <w:jc w:val="both" />
     </w:pPr>
     <w:rPr>
