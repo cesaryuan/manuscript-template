@@ -140,7 +140,131 @@
       </w:pPr>
     </w:lvl>
   </w:abstractNum>
+  <w:abstractNum w:abstractNumId="1" w15:restartNumberingAfterBreak="0">
+    <w:nsid w:val="6544362B" />
+    <w:multiLevelType w:val="multilevel" />
+    <w:tmpl w:val="A3BA8692" />
+    <w:lvl w:ilvl="0">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:pStyle w:val="1" />
+      <w:suff w:val="space" />
+      <w:lvlText w:val="%1" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="425" w:hanging="425" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+    <w:lvl w:ilvl="1">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:pStyle w:val="2" />
+      <w:suff w:val="space" />
+      <w:lvlText w:val="%1.%2" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="992" w:hanging="992" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+    <w:lvl w:ilvl="2">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:pStyle w:val="3" />
+      <w:suff w:val="space" />
+      <w:lvlText w:val="%1.%2.%3" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="1418" w:hanging="1418" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+    <w:lvl w:ilvl="3">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:pStyle w:val="4" />
+      <w:suff w:val="space" />
+      <w:lvlText w:val="%1.%2.%3.%4" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="1984" w:hanging="1984" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+    <w:lvl w:ilvl="4">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:lvlText w:val="%1.%2.%3.%4.%5" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="2551" w:hanging="850" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+    <w:lvl w:ilvl="5">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:lvlText w:val="%1.%2.%3.%4.%5.%6" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="3260" w:hanging="1134" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+    <w:lvl w:ilvl="6">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:lvlText w:val="%1.%2.%3.%4.%5.%6.%7" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="3827" w:hanging="1276" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+    <w:lvl w:ilvl="7">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:lvlText w:val="%1.%2.%3.%4.%5.%6.%7.%8" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="4394" w:hanging="1418" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+    <w:lvl w:ilvl="8">
+      <w:start w:val="1" />
+      <w:numFmt w:val="decimal" />
+      <w:lvlText w:val="%1.%2.%3.%4.%5.%6.%7.%8.%9" />
+      <w:lvlJc w:val="left" />
+      <w:pPr>
+        <w:ind w:left="5102" w:hanging="1700" />
+      </w:pPr>
+      <w:rPr>
+        <w:rFonts w:hint="eastAsia" />
+      </w:rPr>
+    </w:lvl>
+  </w:abstractNum>
   <w:num w:numId="1" w16cid:durableId="461384226">
     <w:abstractNumId w:val="0" />
+  </w:num>
+  <w:num w:numId="2" w16cid:durableId="2143377442">
+    <w:abstractNumId w:val="1" />
   </w:num>
 </w:numbering>
