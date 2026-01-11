@@ -812,6 +812,9 @@
     <w:trPr>
       <w:jc w:val="center" />
     </w:trPr>
+    <w:tcPr>
+      <w:vAlign w:val="center" />
+    </w:tcPr>
     <w:tblStylePr w:type="firstRow">
       <w:tblPr />
       <w:tcPr>
