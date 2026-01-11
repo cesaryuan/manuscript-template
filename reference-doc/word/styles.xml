@@ -804,9 +804,9 @@
       </w:tblBorders>
       <w:tblCellMar>
         <w:top w:w="0" w:type="dxa" />
-        <w:left w:w="108" w:type="dxa" />
+        <w:left w:w="85" w:type="dxa" />
         <w:bottom w:w="0" w:type="dxa" />
-        <w:right w:w="108" w:type="dxa" />
+        <w:right w:w="85" w:type="dxa" />
       </w:tblCellMar>
     </w:tblPr>
     <w:trPr>
