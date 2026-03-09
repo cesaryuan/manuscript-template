@@ -874,6 +874,7 @@
     <w:basedOn w:val="Figure" />
     <w:pPr>
       <w:keepNext />
+      <w:spacing w:after="0" />
     </w:pPr>
   </w:style>
   <w:style w:type="character" w:customStyle="1" w:styleId="ad">
