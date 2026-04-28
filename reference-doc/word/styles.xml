@@ -479,6 +479,7 @@
   <w:style w:type="table" w:default="1" w:styleId="a2">
     <w:name w:val="Normal Table" />
     <w:uiPriority w:val="99" />
+    <w:semiHidden />
     <w:unhideWhenUsed />
     <w:tblPr>
       <w:tblInd w:w="0" w:type="dxa" />
@@ -631,7 +632,7 @@
     <w:qFormat />
     <w:pPr>
       <w:keepNext />
-      <w:spacing w:before="100" w:after="300" />
+      <w:spacing w:before="100" w:after="120" />
     </w:pPr>
     <w:rPr>
       <w:szCs w:val="20" />
@@ -794,6 +795,7 @@
     <w:qFormat />
     <w:rPr>
       <w:sz w:val="21" />
+      <w:szCs w:val="20" />
     </w:rPr>
     <w:tblPr>
       <w:jc w:val="center" />
