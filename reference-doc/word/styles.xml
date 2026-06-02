@@ -29,6 +29,7 @@
     </w:pPrDefault>
   </w:docDefaults>
   <w:latentStyles w:defLockedState="0" w:defUIPriority="0" w:defSemiHidden="0" w:defUnhideWhenUsed="0" w:defQFormat="0" w:count="376">
+    <w:lsdException w:name="caption" w:qFormat="1" />
     <w:lsdException w:name="Normal Table" w:semiHidden="1" w:unhideWhenUsed="1" />
     <w:lsdException w:name="Table Simple 1" w:semiHidden="1" w:unhideWhenUsed="1" />
     <w:lsdException w:name="Table Simple 2" w:semiHidden="1" w:unhideWhenUsed="1" />
@@ -514,7 +515,6 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Compact">
     <w:name w:val="Compact" />
     <w:basedOn w:val="a0" />
-    <w:qFormat />
     <w:pPr>
       <w:spacing w:before="36" w:after="36" />
     </w:pPr>
@@ -585,7 +585,6 @@
     <w:name w:val="Author" />
     <w:basedOn w:val="a4" />
     <w:next w:val="a0" />
-    <w:qFormat />
     <w:pPr>
       <w:keepNext />
       <w:keepLines />
@@ -599,7 +598,6 @@
     <w:name w:val="Date" />
     <w:basedOn w:val="a4" />
     <w:next w:val="a0" />
-    <w:qFormat />
     <w:pPr>
       <w:keepNext />
       <w:keepLines />
@@ -613,7 +611,6 @@
     <w:name w:val="Abstract Title" />
     <w:basedOn w:val="a" />
     <w:next w:val="Abstract" />
-    <w:qFormat />
     <w:pPr>
       <w:keepNext />
       <w:keepLines />
@@ -629,7 +626,6 @@
     <w:name w:val="Abstract" />
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
-    <w:qFormat />
     <w:pPr>
       <w:keepNext />
       <w:spacing w:before="100" w:after="120" />
@@ -760,7 +756,6 @@
     <w:next w:val="a0" />
     <w:uiPriority w:val="9" />
     <w:unhideWhenUsed />
-    <w:qFormat />
     <w:pPr>
       <w:spacing w:before="100" w:after="100" />
       <w:ind w:left="480" w:right="480" />
@@ -782,7 +777,6 @@
     <w:next w:val="ab" />
     <w:uiPriority w:val="9" />
     <w:unhideWhenUsed />
-    <w:qFormat />
     <w:pPr>
       <w:spacing w:before="100" w:after="100" />
       <w:ind w:left="480" w:right="480" />
@@ -848,6 +842,7 @@
     <w:name w:val="caption" />
     <w:basedOn w:val="a" />
     <w:link w:val="ad" />
+    <w:qFormat />
     <w:pPr>
       <w:spacing w:after="120" />
       <w:jc w:val="center" />
@@ -856,17 +851,21 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableCaption">
     <w:name w:val="Table Caption" />
     <w:basedOn w:val="ac" />
+    <w:qFormat />
     <w:pPr>
       <w:keepNext />
+      <w:spacing w:after="0" />
     </w:pPr>
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="ImageCaption">
     <w:name w:val="Image Caption" />
     <w:basedOn w:val="ac" />
+    <w:qFormat />
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Figure">
     <w:name w:val="Figure" />
     <w:basedOn w:val="a" />
+    <w:qFormat />
     <w:pPr>
       <w:jc w:val="center" />
     </w:pPr>
@@ -874,6 +873,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="CaptionedFigure">
     <w:name w:val="Captioned Figure" />
     <w:basedOn w:val="Figure" />
+    <w:qFormat />
     <w:pPr>
       <w:keepNext />
       <w:spacing w:after="0" />
