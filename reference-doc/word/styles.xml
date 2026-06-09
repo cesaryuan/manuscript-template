@@ -994,7 +994,8 @@
     <w:uiPriority w:val="1" />
     <w:qFormat />
     <w:rPr>
-      <w:color w:val="EE0000" />
+      <w:i />
+      <w:color w:val="auto" />
     </w:rPr>
   </w:style>
 </w:styles>
