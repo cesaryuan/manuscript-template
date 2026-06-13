@@ -998,4 +998,12 @@
       <w:color w:val="auto" />
     </w:rPr>
   </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="ReplytoReviewers">
+    <w:name w:val="Reply to Reviewers" />
+    <w:basedOn w:val="a0" />
+    <w:qFormat />
+    <w:rPr>
+      <w:color w:val="0000FF" />
+    </w:rPr>
+  </w:style>
 </w:styles>
