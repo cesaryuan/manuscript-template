@@ -1018,4 +1018,12 @@
       <w:color w:val="0000FF" />
     </w:rPr>
   </w:style>
+  <w:style w:type="character" w:customStyle="1" w:styleId="ReplyChar">
+    <w:name w:val="Reply Char" />
+    <w:uiPriority w:val="1" />
+    <w:qFormat />
+    <w:rPr>
+      <w:color w:val="0000FF" />
+    </w:rPr>
+  </w:style>
 </w:styles>
