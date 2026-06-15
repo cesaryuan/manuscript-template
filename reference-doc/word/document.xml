@@ -371,7 +371,6 @@
         <w:pStyle w:val="TableCaption" />
       </w:pPr>
       <w:r>
-        <w:lastRenderedPageBreak />
         <w:t>Table caption.</w:t>
       </w:r>
     </w:p>
@@ -383,8 +382,8 @@
         <w:tblCaption w:val="Table caption." />
       </w:tblPr>
       <w:tblGrid>
-        <w:gridCol w:w="1167" />
-        <w:gridCol w:w="695" />
+        <w:gridCol w:w="1121" />
+        <w:gridCol w:w="649" />
       </w:tblGrid>
       <w:tr>
         <w:trPr>
@@ -481,6 +480,7 @@
         <w:pStyle w:val="ImageCaption" />
       </w:pPr>
       <w:r>
+        <w:lastRenderedPageBreak />
         <w:t>Image Caption</w:t>
       </w:r>
     </w:p>
@@ -521,8 +521,9 @@
         <w:numRestart w:val="eachSect" />
       </w:footnotePr>
       <w:pgSz w:w="11906" w:h="16838" w:code="9" />
-      <w:pgMar w:top="1440" w:right="1800" w:bottom="1440" w:left="1800" w:header="720" w:footer="720" w:gutter="0" />
+      <w:pgMar w:top="1440" w:right="1080" w:bottom="1440" w:left="1080" w:header="720" w:footer="720" w:gutter="0" />
       <w:cols w:space="720" />
+      <w:docGrid w:linePitch="326" />
     </w:sectPr>
   </w:body>
 </w:document>
