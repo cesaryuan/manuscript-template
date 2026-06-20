@@ -1026,4 +1026,22 @@
       <w:color w:val="0000FF" />
     </w:rPr>
   </w:style>
+  <w:style w:type="character" w:customStyle="1" w:styleId="RevisionChar">
+    <w:name w:val="Revision Char" />
+    <w:basedOn w:val="a1" />
+    <w:uiPriority w:val="1" />
+    <w:qFormat />
+    <w:rPr>
+      <w:color w:val="EE0000" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="RevisionPara">
+    <w:name w:val="Revision Para" />
+    <w:basedOn w:val="a0" />
+    <w:next w:val="a0" />
+    <w:qFormat />
+    <w:rPr>
+      <w:color w:val="EE0000" />
+    </w:rPr>
+  </w:style>
 </w:styles>
