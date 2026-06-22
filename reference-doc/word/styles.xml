@@ -989,8 +989,8 @@
     <w:name w:val="line number" />
     <w:basedOn w:val="a1" />
   </w:style>
-  <w:style w:type="character" w:customStyle="1" w:styleId="Emphasis">
-    <w:name w:val="Emphasis" />
+  <w:style w:type="character" w:customStyle="1" w:styleId="EmphasisChar">
+    <w:name w:val="Emphasis Char" />
     <w:basedOn w:val="a1" />
     <w:uiPriority w:val="1" />
     <w:qFormat />
