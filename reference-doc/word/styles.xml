@@ -1002,7 +1002,6 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="ReplytoReviewers">
     <w:name w:val="Reply to Reviewers" />
     <w:basedOn w:val="a0" />
-    <w:qFormat />
     <w:rPr>
       <w:color w:val="0000FF" />
     </w:rPr>
@@ -1010,7 +1009,6 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="ReplyHeader">
     <w:name w:val="Reply Header" />
     <w:basedOn w:val="a0" />
-    <w:qFormat />
     <w:pPr>
       <w:spacing w:before="0" w:after="0" />
     </w:pPr>
@@ -1039,7 +1037,6 @@
     <w:name w:val="Revision Para" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
-    <w:qFormat />
     <w:rPr>
       <w:color w:val="EE0000" />
     </w:rPr>
