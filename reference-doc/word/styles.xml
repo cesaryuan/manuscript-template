@@ -988,6 +988,10 @@
   <w:style w:type="character" w:styleId="af4">
     <w:name w:val="line number" />
     <w:basedOn w:val="a1" />
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" />
+      <w:sz w:val="24" />
+    </w:rPr>
   </w:style>
   <w:style w:type="character" w:customStyle="1" w:styleId="EmphasisChar">
     <w:name w:val="Emphasis Char" />
