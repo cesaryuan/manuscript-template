@@ -94,6 +94,7 @@
     <w:lsdException w:name="Medium Shading 1 Accent 1" />
     <w:lsdException w:name="Medium Shading 2 Accent 1" />
     <w:lsdException w:name="Medium List 1 Accent 1" />
+    <w:lsdException w:name="Quote" w:qFormat="1" />
     <w:lsdException w:name="Medium List 2 Accent 1" />
     <w:lsdException w:name="Medium Grid 1 Accent 1" />
     <w:lsdException w:name="Medium Grid 2 Accent 1" />
@@ -1043,6 +1044,17 @@
     <w:next w:val="a0" />
     <w:rPr>
       <w:color w:val="EE0000" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:styleId="af5">
+    <w:name w:val="Quote" />
+    <w:basedOn w:val="a" />
+    <w:next w:val="a" />
+    <w:link w:val="af6" />
+    <w:qFormat />
+    <w:rPr>
+      <w:i />
+      <w:iCs />
     </w:rPr>
   </w:style>
 </w:styles>

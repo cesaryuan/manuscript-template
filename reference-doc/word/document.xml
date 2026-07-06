@@ -516,6 +516,23 @@
         <w:t>Definition</w:t>
       </w:r>
     </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="af5" />
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:rFonts w:hint="eastAsia" />
+        </w:rPr>
+        <w:t>B</w:t>
+      </w:r>
+      <w:r>
+        <w:t>lock quote</w:t>
+      </w:r>
+    </w:p>
     <w:sectPr>
       <w:footnotePr>
         <w:numRestart w:val="eachSect" />
