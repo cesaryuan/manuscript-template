@@ -869,6 +869,8 @@
     <w:basedOn w:val="a" />
     <w:qFormat />
     <w:pPr>
+      <w:spacing w:after="0" />
+      <w:contextualSpacing />
       <w:jc w:val="center" />
     </w:pPr>
   </w:style>
@@ -878,7 +880,6 @@
     <w:qFormat />
     <w:pPr>
       <w:keepNext />
-      <w:spacing w:after="0" />
     </w:pPr>
   </w:style>
   <w:style w:type="character" w:customStyle="1" w:styleId="ad">
