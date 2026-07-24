@@ -1058,4 +1058,12 @@
       <w:iCs />
     </w:rPr>
   </w:style>
+  <w:style w:type="character" w:styleId="af6">
+    <w:name w:val="page number" />
+    <w:basedOn w:val="a1" />
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" />
+      <w:sz w:val="18" />
+    </w:rPr>
+  </w:style>
 </w:styles>
