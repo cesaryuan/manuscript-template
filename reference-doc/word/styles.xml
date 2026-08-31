@@ -769,6 +769,9 @@
     <w:uiPriority w:val="9" />
     <w:unhideWhenUsed />
     <w:qFormat />
+    <w:pPr>
+      <w:spacing w:after="0" />
+    </w:pPr>
     <w:rPr>
       <w:sz w:val="21" />
     </w:rPr>
