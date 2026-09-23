@@ -384,8 +384,7 @@
       <w:outlineLvl w:val="4" />
     </w:pPr>
     <w:rPr>
-      <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
-      <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
+      <w:rFonts w:eastAsia="黑体" w:cstheme="majorBidi" />
     </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:styleId="6">
@@ -700,8 +699,7 @@
     <w:uiPriority w:val="9" />
     <w:semiHidden />
     <w:rPr>
-      <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
-      <w:color w:val="0F4761" w:themeColor="accent1" w:themeShade="BF" />
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
     </w:rPr>
   </w:style>
   <w:style w:type="character" w:customStyle="1" w:styleId="60">
