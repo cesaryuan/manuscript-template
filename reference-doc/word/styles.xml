@@ -1065,4 +1065,15 @@
       <w:sz w:val="21" />
     </w:rPr>
   </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableText">
+    <w:name w:val="Table Text" />
+    <w:basedOn w:val="a" />
+    <w:qFormat />
+    <w:pPr>
+      <w:spacing w:before="50" w:after="50" w:line="240" w:lineRule="auto" />
+    </w:pPr>
+    <w:rPr>
+      <w:szCs w:val="20" />
+    </w:rPr>
+  </w:style>
 </w:styles>
