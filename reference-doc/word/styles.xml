@@ -1085,4 +1085,13 @@
       <w:ind w:firstLineChars="0" w:firstLine="0" />
     </w:pPr>
   </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="ParaAfterTable">
+    <w:name w:val="Para After Table" />
+    <w:basedOn w:val="a0" />
+    <w:next w:val="a0" />
+    <w:qFormat />
+    <w:pPr>
+      <w:spacing w:before="120" />
+    </w:pPr>
+  </w:style>
 </w:styles>
