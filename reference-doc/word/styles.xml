@@ -1076,4 +1076,13 @@
       <w:szCs w:val="20" />
     </w:rPr>
   </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="ParaWhere">
+    <w:name w:val="Para Where" />
+    <w:basedOn w:val="a0" />
+    <w:next w:val="a0" />
+    <w:qFormat />
+    <w:pPr>
+      <w:ind w:firstLineChars="0" w:firstLine="0" />
+    </w:pPr>
+  </w:style>
 </w:styles>
