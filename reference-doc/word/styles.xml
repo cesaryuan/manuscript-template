@@ -1073,6 +1073,7 @@
       <w:spacing w:before="50" w:after="50" w:line="240" w:lineRule="auto" />
     </w:pPr>
     <w:rPr>
+      <w:sz w:val="21" />
       <w:szCs w:val="20" />
     </w:rPr>
   </w:style>
