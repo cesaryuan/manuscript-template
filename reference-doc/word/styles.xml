@@ -301,7 +301,7 @@
     <w:rPr>
       <w:rFonts w:eastAsia="黑体" w:cstheme="majorBidi" />
       <w:b />
-      <w:sz w:val="32" />
+      <w:sz w:val="28" />
       <w:szCs w:val="40" />
     </w:rPr>
   </w:style>
@@ -323,7 +323,6 @@
     <w:rPr>
       <w:rFonts w:eastAsia="黑体" w:cstheme="majorBidi" />
       <w:b />
-      <w:sz w:val="28" />
       <w:szCs w:val="32" />
     </w:rPr>
   </w:style>
@@ -652,7 +651,7 @@
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
       <w:b />
-      <w:sz w:val="32" />
+      <w:sz w:val="28" />
       <w:szCs w:val="40" />
     </w:rPr>
   </w:style>
@@ -665,7 +664,6 @@
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
       <w:b />
-      <w:sz w:val="28" />
       <w:szCs w:val="32" />
     </w:rPr>
   </w:style>
