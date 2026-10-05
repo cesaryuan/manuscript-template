@@ -1100,7 +1100,7 @@
     </w:pPr>
   </w:style>
   <w:style w:type="table" w:customStyle="1" w:styleId="TableNoBorder">
-    <w:name w:val="Table NoBorder" />
+    <w:name w:val="TableNoBorder" />
     <w:basedOn w:val="a2" />
     <w:uiPriority w:val="99" />
     <w:pPr>
