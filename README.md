@@ -4,9 +4,7 @@ The bundled `reference-doc.docx` and its extracted `reference-doc/` contents mus
 stay synchronized. DOCX exports use the package; HTML typography reads
 `reference-doc/word/styles.xml`.
 
-`Image Caption English` and `Table Caption English` define the typography of
-`caption-en` translations. They inherit `Image Caption` and `Table Caption`,
-respectively, and set Times New Roman and English language defaults. Change these
-reference styles to adjust reusable typography; Papper does not create or repair
-their font defaults during DOCX post-processing. Project-level `docxStyle`
-overrides can still adjust either named style.
+`Image Caption` and `Table Caption` define the typography of both the primary
+caption and its `caption-en` translation. Change these shared reference styles
+to adjust reusable typography. Project-level `docxStyle` overrides also apply
+to both caption languages in DOCX and HTML.

@@ -856,12 +856,16 @@
     <w:pPr>
       <w:keepNext />
       <w:spacing w:after="0" />
+      <w:contextualSpacing />
     </w:pPr>
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="ImageCaption">
     <w:name w:val="Image Caption" />
     <w:basedOn w:val="ac" />
     <w:qFormat />
+    <w:pPr>
+      <w:contextualSpacing />
+    </w:pPr>
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Figure">
     <w:name w:val="Figure" />
@@ -1094,15 +1098,5 @@
     <w:pPr>
       <w:spacing w:before="120" />
     </w:pPr>
-  </w:style>
-  <w:style w:type="paragraph" w:customStyle="1" w:styleId="ImageCaptionEnglish">
-    <w:name w:val="Image Caption English" />
-    <w:basedOn w:val="ImageCaption" />
-    <w:qFormat />
-  </w:style>
-  <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableCaptionEnglish">
-    <w:name w:val="Table Caption English" />
-    <w:basedOn w:val="TableCaption" />
-    <w:qFormat />
   </w:style>
 </w:styles>
