@@ -845,7 +845,7 @@
     <w:link w:val="ad" />
     <w:qFormat />
     <w:pPr>
-      <w:spacing w:after="120" />
+      <w:spacing w:after="120" w:line="240" w:lineRule="auto" />
       <w:jc w:val="center" />
     </w:pPr>
   </w:style>
@@ -1099,18 +1099,10 @@
     <w:name w:val="Image Caption English" />
     <w:basedOn w:val="ImageCaption" />
     <w:qFormat />
-    <w:rPr>
-      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" />
-      <w:lang w:val="en-US" />
-    </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableCaptionEnglish">
     <w:name w:val="Table Caption English" />
     <w:basedOn w:val="TableCaption" />
     <w:qFormat />
-    <w:rPr>
-      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" />
-      <w:lang w:val="en-US" />
-    </w:rPr>
   </w:style>
 </w:styles>
