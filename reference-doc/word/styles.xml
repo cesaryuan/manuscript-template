@@ -785,8 +785,8 @@
   </w:style>
   <w:style w:type="table" w:customStyle="1" w:styleId="Table">
     <w:name w:val="Table" />
-    <w:semiHidden />
-    <w:unhideWhenUsed />
+    <!-- <w:semiHidden /> -->
+    <!-- <w:unhideWhenUsed /> -->
     <w:qFormat />
     <w:rPr>
       <w:sz w:val="21" />
@@ -1098,5 +1098,18 @@
     <w:pPr>
       <w:spacing w:before="120" />
     </w:pPr>
+  </w:style>
+  <w:style w:type="table" w:customStyle="1" w:styleId="TableNoBorder">
+    <w:name w:val="Table NoBorder" />
+    <w:basedOn w:val="a2" />
+    <w:uiPriority w:val="99" />
+    <w:pPr>
+      <w:spacing w:after="0" />
+    </w:pPr>
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
+      <w:sz w:val="21" />
+    </w:rPr>
+    <w:tblPr />
   </w:style>
 </w:styles>
