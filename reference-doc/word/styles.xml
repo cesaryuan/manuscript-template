@@ -1132,4 +1132,14 @@
       <w:vAlign w:val="center" />
     </w:tcPr>
   </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="af7">
+    <w:name w:val="式中" />
+    <w:basedOn w:val="a0" />
+    <w:next w:val="a0" />
+    <w:qFormat />
+    <w:pPr>
+      <w:spacing w:before="0" w:after="0" />
+      <w:ind w:firstLineChars="0" w:firstLine="0" />
+    </w:pPr>
+  </w:style>
 </w:styles>
