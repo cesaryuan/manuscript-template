@@ -598,15 +598,63 @@
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Author">
     <w:name w:val="Author" />
-    <w:basedOn w:val="a4" />
+    <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
     <w:pPr>
       <w:keepNext />
       <w:keepLines />
+      <!-- Match the pre-filter author paragraph instead of inheriting Body Text's 9pt space before. -->
+      <w:spacing w:before="0" />
+      <w:jc w:val="center" />
+      <w:ind w:firstLine="0" w:firstLineChars="0" />
     </w:pPr>
     <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" />
       <w:sz w:val="24" />
       <w:szCs w:val="24" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="Affiliation">
+    <w:name w:val="Affiliation" />
+    <!-- Preserve the pre-filter Normal ancestry and inherited East Asian typography. -->
+    <w:basedOn w:val="a" />
+    <w:uiPriority w:val="1" />
+    <w:qFormat />
+    <w:pPr>
+      <w:spacing w:before="120" w:after="120" />
+      <w:jc w:val="center" />
+    </w:pPr>
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" />
+      <w:i />
+      <w:sz w:val="20" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="character" w:customStyle="1" w:styleId="CorrespondenceText">
+    <w:name w:val="Correspondence Text" />
+    <w:qFormat />
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" />
+      <w:i />
+      <w:sz w:val="20" />
+      <w:szCs w:val="20" />
+    </w:rPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="Correspondence">
+    <w:name w:val="Correspondence" />
+    <w:basedOn w:val="a0" />
+    <w:next w:val="a0" />
+    <w:qFormat />
+    <w:pPr>
+      <w:spacing w:before="0" w:after="0" />
+      <w:ind w:firstLine="0" w:firstLineChars="0" />
+      <w:jc w:val="left" />
+    </w:pPr>
+    <w:rPr>
+      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" />
+      <w:i />
+      <w:sz w:val="20" />
+      <w:szCs w:val="20" />
     </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:styleId="a8">
