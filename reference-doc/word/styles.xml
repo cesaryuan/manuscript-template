@@ -513,11 +513,13 @@
     <w:name w:val="First Paragraph" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:qFormat />
   </w:style>
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Compact">
     <w:name w:val="Compact" />
     <w:basedOn w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:spacing w:before="36" w:after="36" />
       <w:ind w:firstLineChars="0" w:firstLine="0" />
@@ -601,6 +603,7 @@
     <w:name w:val="Author" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:keepNext />
       <w:keepLines />
@@ -633,6 +636,7 @@
   </w:style>
   <w:style w:type="character" w:customStyle="1" w:styleId="CorrespondenceText">
     <w:name w:val="Correspondence Text" />
+    <w:uiPriority w:val="99" />
     <w:qFormat />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" />
@@ -645,6 +649,7 @@
     <w:name w:val="Correspondence" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:before="0" w:after="0" />
@@ -662,6 +667,7 @@
     <w:name w:val="Date" />
     <w:basedOn w:val="a4" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:keepNext />
       <w:keepLines />
@@ -675,6 +681,7 @@
     <w:name w:val="Abstract Title" />
     <w:basedOn w:val="a" />
     <w:next w:val="Abstract" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:keepNext />
       <w:keepLines />
@@ -690,6 +697,7 @@
     <w:name w:val="Abstract" />
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:keepNext />
       <w:spacing w:before="100" w:after="120" />
@@ -701,6 +709,7 @@
   <w:style w:type="paragraph" w:styleId="a9">
     <w:name w:val="Bibliography" />
     <w:basedOn w:val="a" />
+    <w:uiPriority w:val="99" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -851,6 +860,7 @@
   </w:style>
   <w:style w:type="table" w:customStyle="1" w:styleId="Table">
     <w:name w:val="Table" />
+    <w:uiPriority w:val="99" />
     <w:qFormat />
     <w:rPr>
       <w:sz w:val="21" />
@@ -890,6 +900,7 @@
     <w:name w:val="Definition Term" />
     <w:basedOn w:val="a" />
     <w:next w:val="Definition" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:keepNext />
       <w:keepLines />
@@ -902,6 +913,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Definition">
     <w:name w:val="Definition" />
     <w:basedOn w:val="a" />
+    <w:uiPriority w:val="99" />
   </w:style>
   <w:style w:type="paragraph" w:styleId="ac">
     <w:name w:val="caption" />
@@ -949,6 +961,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="CaptionedFigure">
     <w:name w:val="Captioned Figure" />
     <w:basedOn w:val="Figure" />
+    <w:uiPriority w:val="99" />
     <w:qFormat />
     <w:pPr>
       <w:keepNext />
@@ -958,6 +971,7 @@
     <w:name w:val="题注 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="ac" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
     </w:rPr>
@@ -965,6 +979,7 @@
   <w:style w:type="character" w:customStyle="1" w:styleId="VerbatimChar">
     <w:name w:val="Verbatim Char" />
     <w:basedOn w:val="ad" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Consolas" w:eastAsia="宋体" w:hAnsi="Consolas" />
       <w:sz w:val="22" />
@@ -973,6 +988,7 @@
   <w:style w:type="character" w:customStyle="1" w:styleId="SectionNumber">
     <w:name w:val="Section Number" />
     <w:basedOn w:val="ad" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
     </w:rPr>
@@ -980,6 +996,7 @@
   <w:style w:type="character" w:styleId="ae">
     <w:name w:val="footnote reference" />
     <w:basedOn w:val="ad" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
       <w:vertAlign w:val="superscript" />
@@ -988,6 +1005,7 @@
   <w:style w:type="character" w:styleId="af">
     <w:name w:val="Hyperlink" />
     <w:basedOn w:val="ad" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
       <w:color w:val="156082" w:themeColor="accent1" />
@@ -1009,6 +1027,7 @@
     <w:name w:val="header" />
     <w:basedOn w:val="a" />
     <w:link w:val="af1" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:tabs>
         <w:tab w:val="center" w:pos="4153" />
@@ -1026,6 +1045,7 @@
     <w:name w:val="页眉 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="af0" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
       <w:sz w:val="18" />
@@ -1036,6 +1056,7 @@
     <w:name w:val="footer" />
     <w:basedOn w:val="a" />
     <w:link w:val="af3" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:tabs>
         <w:tab w:val="center" w:pos="4153" />
@@ -1053,6 +1074,7 @@
     <w:name w:val="页脚 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="af2" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" />
       <w:sz w:val="18" />
@@ -1062,6 +1084,7 @@
   <w:style w:type="character" w:styleId="af4">
     <w:name w:val="line number" />
     <w:basedOn w:val="a1" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="Times New Roman" w:hAnsi="Times New Roman" />
       <w:sz w:val="24" />
@@ -1082,6 +1105,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="ReplytoReviewers">
     <w:name w:val="Reply to Reviewers" />
     <w:basedOn w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:color w:val="0000FF" />
     </w:rPr>
@@ -1089,6 +1113,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="ReplyHeader">
     <w:name w:val="Reply Header" />
     <w:basedOn w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:spacing w:before="0" w:after="0" />
     </w:pPr>
@@ -1121,6 +1146,7 @@
     <w:name w:val="Revision Para" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:color w:val="EE0000" />
     </w:rPr>
@@ -1130,6 +1156,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a" />
     <w:link w:val="af6" />
+    <w:uiPriority w:val="99" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -1141,6 +1168,7 @@
   <w:style w:type="character" w:styleId="af6">
     <w:name w:val="page number" />
     <w:basedOn w:val="a1" />
+    <w:uiPriority w:val="99" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" />
       <w:sz w:val="21" />
@@ -1224,6 +1252,7 @@
     <w:name w:val="式中" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="99" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -1268,6 +1297,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a" />
     <w:autoRedefine />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:ind w:leftChars="450" w:left="450" />
     </w:pPr>
@@ -1292,6 +1322,7 @@
     <w:name w:val="table of figures" />
     <w:basedOn w:val="a" />
     <w:next w:val="a" />
+    <w:uiPriority w:val="99" />
     <w:pPr>
       <w:ind w:left="200" w:hangingChars="200" w:hanging="200" />
     </w:pPr>
