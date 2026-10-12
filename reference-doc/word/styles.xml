@@ -28,11 +28,11 @@
       </w:pPr>
     </w:pPrDefault>
   </w:docDefaults>
-  <w:latentStyles w:defLockedState="0" w:defUIPriority="0" w:defSemiHidden="0" w:defUnhideWhenUsed="0" w:defQFormat="0" w:count="376">
+  <w:latentStyles w:defLockedState="0" w:defUIPriority="99" w:defSemiHidden="0" w:defUnhideWhenUsed="0" w:defQFormat="0" w:count="376">
     <w:lsdException w:name="toc 1" w:uiPriority="39" />
     <w:lsdException w:name="toc 2" w:uiPriority="39" />
     <w:lsdException w:name="toc 3" w:uiPriority="39" />
-    <w:lsdException w:name="caption" w:qFormat="1" />
+    <w:lsdException w:name="caption" w:uiPriority="9" w:qFormat="1" />
     <w:lsdException w:name="Hyperlink" w:uiPriority="99" />
     <w:lsdException w:name="Normal Table" w:semiHidden="1" w:unhideWhenUsed="1" />
     <w:lsdException w:name="Table Simple 1" w:semiHidden="1" w:unhideWhenUsed="1" />
@@ -98,7 +98,7 @@
     <w:lsdException w:name="Medium Shading 1 Accent 1" />
     <w:lsdException w:name="Medium Shading 2 Accent 1" />
     <w:lsdException w:name="Medium List 1 Accent 1" />
-    <w:lsdException w:name="Quote" w:qFormat="1" />
+    <w:lsdException w:name="Quote" w:semiHidden="1" w:uiPriority="99" w:unhideWhenUsed="1" w:qFormat="1" />
     <w:lsdException w:name="Medium List 2 Accent 1" />
     <w:lsdException w:name="Medium Grid 1 Accent 1" />
     <w:lsdException w:name="Medium Grid 2 Accent 1" />
@@ -280,6 +280,7 @@
   </w:latentStyles>
   <w:style w:type="paragraph" w:default="1" w:styleId="a">
     <w:name w:val="Normal" />
+    <w:uiPriority w:val="99" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:after="0" w:line="360" w:lineRule="auto" />
@@ -296,7 +297,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="10" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="2" />
     <w:qFormat />
     <w:pPr>
       <w:keepNext />
@@ -316,9 +317,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="20" />
-    <w:uiPriority w:val="9" />
-    <w:semiHidden />
-    <w:unhideWhenUsed />
+    <w:uiPriority w:val="3" />
     <w:qFormat />
     <w:pPr>
       <w:keepNext />
@@ -337,9 +336,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="30" />
-    <w:uiPriority w:val="9" />
-    <w:semiHidden />
-    <w:unhideWhenUsed />
+    <w:uiPriority w:val="4" />
     <w:qFormat />
     <w:pPr>
       <w:keepNext />
@@ -358,7 +355,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="40" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -378,7 +375,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="50" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -397,7 +394,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="60" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -419,7 +416,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="70" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -439,7 +436,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="80" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -461,7 +458,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="90" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:unhideWhenUsed />
     <w:qFormat />
@@ -478,7 +475,7 @@
   </w:style>
   <w:style w:type="character" w:default="1" w:styleId="a1">
     <w:name w:val="Default Paragraph Font" />
-    <w:uiPriority w:val="1" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:unhideWhenUsed />
   </w:style>
@@ -506,6 +503,7 @@
   <w:style w:type="paragraph" w:styleId="a0">
     <w:name w:val="Body Text" />
     <w:basedOn w:val="a" />
+    <w:uiPriority w:val="1" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:before="180" w:after="180" />
@@ -529,6 +527,9 @@
     <w:name w:val="Bracketed List" />
     <w:basedOn w:val="Compact" />
     <w:next w:val="BracketedList" />
+    <w:uiPriority w:val="11" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
     <w:qFormat />
     <w:pPr>
       <w:ind w:hangingChars="200" />
@@ -539,7 +540,7 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a0" />
     <w:link w:val="a5" />
-    <w:uiPriority w:val="10" />
+    <w:uiPriority w:val="15" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:after="80" />
@@ -557,7 +558,7 @@
     <w:name w:val="标题 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="a4" />
-    <w:uiPriority w:val="10" />
+    <w:uiPriority w:val="15" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
       <w:b />
@@ -570,7 +571,7 @@
     <w:basedOn w:val="a4" />
     <w:next w:val="a0" />
     <w:link w:val="a7" />
-    <w:uiPriority w:val="11" />
+    <w:uiPriority w:val="15" />
     <w:qFormat />
     <w:pPr>
       <w:numPr>
@@ -587,7 +588,7 @@
     <w:name w:val="副标题 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="a6" />
-    <w:uiPriority w:val="11" />
+    <w:uiPriority w:val="15" />
     <w:rPr>
       <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
       <w:color w:val="595959" w:themeColor="text1" w:themeTint="A6" />
@@ -618,7 +619,7 @@
     <w:name w:val="Affiliation" />
     <!-- Preserve the pre-filter Normal ancestry and inherited East Asian typography. -->
     <w:basedOn w:val="a" />
-    <w:uiPriority w:val="1" />
+    <w:uiPriority w:val="15" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:before="120" w:after="120" />
@@ -700,6 +701,8 @@
   <w:style w:type="paragraph" w:styleId="a9">
     <w:name w:val="Bibliography" />
     <w:basedOn w:val="a" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:after="0" />
@@ -710,7 +713,7 @@
     <w:name w:val="标题 1 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="1" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
       <w:b />
@@ -722,7 +725,7 @@
     <w:name w:val="标题 2 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="2" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
@@ -734,7 +737,7 @@
     <w:name w:val="标题 3 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="3" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
@@ -746,7 +749,7 @@
     <w:name w:val="标题 4 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="4" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="宋体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
@@ -757,7 +760,7 @@
     <w:name w:val="标题 5 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="5" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:rPr>
       <w:rFonts w:ascii="Times New Roman" w:eastAsia="黑体" w:hAnsi="Times New Roman" w:cstheme="majorBidi" />
@@ -767,7 +770,7 @@
     <w:name w:val="标题 6 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="6" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:rPr>
       <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
@@ -780,7 +783,7 @@
     <w:name w:val="标题 7 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="7" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:rPr>
       <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
@@ -791,7 +794,7 @@
     <w:name w:val="标题 8 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="8" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:rPr>
       <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
@@ -804,7 +807,7 @@
     <w:name w:val="标题 9 字符" />
     <w:basedOn w:val="a1" />
     <w:link w:val="9" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:semiHidden />
     <w:rPr>
       <w:rFonts w:eastAsiaTheme="majorEastAsia" w:cstheme="majorBidi" />
@@ -815,7 +818,7 @@
     <w:name w:val="Block Text" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:unhideWhenUsed />
     <w:pPr>
       <w:spacing w:before="100" w:after="100" />
@@ -825,7 +828,7 @@
   <w:style w:type="paragraph" w:styleId="ab">
     <w:name w:val="footnote text" />
     <w:basedOn w:val="a" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:unhideWhenUsed />
     <w:qFormat />
     <w:pPr>
@@ -839,7 +842,7 @@
     <w:name w:val="Footnote Block Text" />
     <w:basedOn w:val="ab" />
     <w:next w:val="ab" />
-    <w:uiPriority w:val="9" />
+    <w:uiPriority w:val="15" />
     <w:unhideWhenUsed />
     <w:pPr>
       <w:spacing w:before="100" w:after="100" />
@@ -904,6 +907,7 @@
     <w:name w:val="caption" />
     <w:basedOn w:val="a" />
     <w:link w:val="ad" />
+    <w:uiPriority w:val="9" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:after="0" w:line="240" w:lineRule="auto" />
@@ -913,6 +917,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableCaption">
     <w:name w:val="Table Caption" />
     <w:basedOn w:val="ac" />
+    <w:uiPriority w:val="7" />
     <w:qFormat />
     <w:pPr>
       <w:keepNext />
@@ -923,6 +928,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="ImageCaption">
     <w:name w:val="Image Caption" />
     <w:basedOn w:val="ac" />
+    <w:uiPriority w:val="6" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:after="120" />
@@ -932,6 +938,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="Figure">
     <w:name w:val="Figure" />
     <w:basedOn w:val="a" />
+    <w:uiPriority w:val="5" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:after="0" />
@@ -990,8 +997,7 @@
     <w:name w:val="TOC Heading" />
     <w:basedOn w:val="1" />
     <w:next w:val="a0" />
-    <w:uiPriority w:val="39" />
-    <w:unhideWhenUsed />
+    <w:uiPriority w:val="10" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:before="240" w:line="259" w:lineRule="auto" />
@@ -1064,7 +1070,9 @@
   <w:style w:type="character" w:customStyle="1" w:styleId="EmphasisChar">
     <w:name w:val="Emphasis Char" />
     <w:basedOn w:val="a1" />
-    <w:uiPriority w:val="1" />
+    <w:uiPriority w:val="15" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
     <w:qFormat />
     <w:rPr>
       <w:i />
@@ -1090,7 +1098,9 @@
   </w:style>
   <w:style w:type="character" w:customStyle="1" w:styleId="ReplyChar">
     <w:name w:val="Reply Char" />
-    <w:uiPriority w:val="1" />
+    <w:uiPriority w:val="15" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
     <w:qFormat />
     <w:rPr>
       <w:color w:val="0000FF" />
@@ -1099,7 +1109,9 @@
   <w:style w:type="character" w:customStyle="1" w:styleId="RevisionChar">
     <w:name w:val="Revision Char" />
     <w:basedOn w:val="a1" />
-    <w:uiPriority w:val="1" />
+    <w:uiPriority w:val="15" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
     <w:qFormat />
     <w:rPr>
       <w:color w:val="EE0000" />
@@ -1118,6 +1130,8 @@
     <w:basedOn w:val="a" />
     <w:next w:val="a" />
     <w:link w:val="af6" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
     <w:qFormat />
     <w:rPr>
       <w:i />
@@ -1135,6 +1149,7 @@
   <w:style w:type="paragraph" w:customStyle="1" w:styleId="TableText">
     <w:name w:val="Table Text" />
     <w:basedOn w:val="a" />
+    <w:uiPriority w:val="8" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:before="50" w:after="50" w:line="240" w:lineRule="auto" />
@@ -1148,6 +1163,7 @@
     <w:name w:val="Para Where" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="14" />
     <w:qFormat />
     <w:pPr>
       <w:ind w:firstLineChars="0" w:firstLine="0" />
@@ -1157,10 +1173,18 @@
     <w:name w:val="Para After Table" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
+    <w:uiPriority w:val="12" />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:before="120" />
     </w:pPr>
+  </w:style>
+  <w:style w:type="paragraph" w:customStyle="1" w:styleId="ParaEquation">
+    <w:name w:val="Para Equation" />
+    <w:basedOn w:val="a0" />
+    <w:next w:val="a0" />
+    <w:uiPriority w:val="13" />
+    <w:qFormat />
   </w:style>
   <w:style w:type="table" w:customStyle="1" w:styleId="TableNoBorder">
     <w:name w:val="TableNoBorder" />
@@ -1200,6 +1224,8 @@
     <w:name w:val="式中" />
     <w:basedOn w:val="a0" />
     <w:next w:val="a0" />
+    <w:semiHidden />
+    <w:unhideWhenUsed />
     <w:qFormat />
     <w:pPr>
       <w:spacing w:before="0" w:after="0" />
