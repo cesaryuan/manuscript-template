@@ -1,0 +1,5 @@
+#!/bin/sh
+# Build the reference DOCX from this commit's staged XML and stage the result.
+# Run through uv so the hook does not depend on an activated Python environment.
+set -eu
+exec uv run --no-project --python '>=3.11' --script .githooks/build_reference_doc.py
