@@ -1271,6 +1271,8 @@
     <w:autoRedefine />
     <w:uiPriority w:val="39" />
     <w:pPr>
+      <!-- Let TOC entries paginate independently instead of inheriting heading keep-with-next. -->
+      <w:keepNext w:val="0" />
       <w:numPr>
         <w:numId w:val="0" />
       </w:numPr>
@@ -1280,6 +1282,8 @@
     </w:pPr>
     <w:rPr>
       <w:b w:val="0" />
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
     </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:styleId="TOC3">
@@ -1289,6 +1293,7 @@
     <w:autoRedefine />
     <w:uiPriority w:val="39" />
     <w:pPr>
+      <w:keepNext w:val="0" />
       <w:numPr>
         <w:numId w:val="0" />
       </w:numPr>
@@ -1301,6 +1306,8 @@
     </w:pPr>
     <w:rPr>
       <w:b w:val="0" />
+      <w:sz w:val="24" />
+      <w:szCs w:val="24" />
     </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:styleId="TOC4">
@@ -1323,6 +1330,7 @@
     <w:autoRedefine />
     <w:uiPriority w:val="39" />
     <w:pPr>
+      <w:keepNext w:val="0" />
       <w:numPr>
         <w:numId w:val="0" />
       </w:numPr>
@@ -1334,6 +1342,7 @@
     </w:pPr>
     <w:rPr>
       <w:sz w:val="24" />
+      <w:szCs w:val="24" />
     </w:rPr>
   </w:style>
   <w:style w:type="paragraph" w:styleId="af8">
