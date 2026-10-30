@@ -1216,6 +1216,9 @@
     <w:next w:val="a0" />
     <w:uiPriority w:val="13" />
     <w:qFormat />
+    <w:pPr>
+      <w:jc w:val="right" />
+    </w:pPr>
   </w:style>
   <w:style w:type="table" w:customStyle="1" w:styleId="TableNoBorder">
     <w:name w:val="TableNoBorder" />
