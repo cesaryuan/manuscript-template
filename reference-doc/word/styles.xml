@@ -1037,6 +1037,7 @@
         <w:tab w:val="right" w:pos="8306" />
       </w:tabs>
       <w:snapToGrid w:val="0" />
+      <w:spacing w:line="240" w:lineRule="auto" />
       <w:jc w:val="center" />
     </w:pPr>
     <w:rPr>
